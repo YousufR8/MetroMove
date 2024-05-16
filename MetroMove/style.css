@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     transition: .2s linear;
-    text-transform: capitalize;
+    text-transform: none;
     text-decoration: none;
 }
 html{
@@ -138,7 +138,8 @@ html{
 .main-tariff h1{
     font-size: 38px;
     text-align: center;
-    padding-bottom: 6rem;}
+    padding-bottom: 6rem;
+}
 .main-tariff h1 span{
     color: #ffc61a;
 }
@@ -302,9 +303,33 @@ button[type="submit"] {
     height: 20px;
 }
 .background-text h2 {
+    margin-top: auto;
     color: white;
     font-size: 50px;
 }
+.gallery-image {
+    width: 200px;
+    margin: 50px;
+    display: inline-block;
+    margin-top: 200px;
+}
+.description-box {
+    border: 2px solid black;
+    padding: 50px;
+    background-color: gray;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+    font-size: 15px;
+}
+.description-box {
+    background-color: gray;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+  
 
 
 
